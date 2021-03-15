@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'morohashi';
+	src: local('Morohashi'), url('fonts/morohashi.woff') format('woff');
+}
+
+body {
+  background-color: rgb(47, 50, 54);
+}
+
+h1 {
+  font-family: 'morohashi';
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: rgb(161, 166, 173);
+  text-decoration: underline;
+
+}
+
+h3{
+	display: inline;
+	font-family: 'morohashi';
+	font-size: 10px;
+	position:absolute;
+    bottom:0;
+    left:0;
+}
+
+table{
+	margin: 0;
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+th{
+	padding: 10px;
+}
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+ul {
+  color:white;
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+
+}
+a {
+  color:white;
+  float: left;
+}
+ a {
+  color:white;
+  letter-spacing: 3px;
+  padding-top: 0px;
+  font-size: 20px;
+  font-family: 'morohashi';
+  display: block;
+  padding: 10px;
+  background-color: rgb(62, 66, 71);
+  text-decoration: none;
+}
+
+ a {
+    color: white;
+}
+li a:active {
+  color: white;
+}
+li a:link {
+	colour:white;
+}
+li a:visited {
+  color: white;
+}
+li a:active{
+	color: white;
+}
+
+logo{
+	display: block;
+}
